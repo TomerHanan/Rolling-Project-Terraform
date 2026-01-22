@@ -11,7 +11,7 @@ jobs:
       - name: Checkout a specific repository
         uses: actions/checkout@v4
         with:
-          repository: OWNER/REPO_NAME
+          repository: TomerHanan/Rolling-Project-Terraform
           ref: main            # branch, tag, or commit
           token: ${{ secrets.GITHUB_TOKEN }}
 
